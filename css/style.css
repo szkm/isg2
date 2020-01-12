@@ -235,8 +235,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
-    /*max-width: 100%; */} }
-
+    max-width: 100%; } }
 @media (max-width: 991.98px) {
   .display-1, .display-3 {
     font-size: 3rem; } }
@@ -650,7 +649,7 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat; }
     @media (max-width: 991.98px) {
       .intro-section:before {
-        width: 100%; } }
+        width: 80%; height:50%; } }
   .intro-section:after {
     content: "";
     position: absolute;
